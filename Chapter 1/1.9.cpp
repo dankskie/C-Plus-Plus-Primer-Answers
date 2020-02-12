@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int main()
 {
 	int sum = 0, val = 50;
