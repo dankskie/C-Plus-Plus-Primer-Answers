@@ -63,22 +63,57 @@ int main()
 				isbnVar5 += 1;
 			}
 		}
-		cout << isbn1 << " occurs " << isbnVar1 << " times." << endl;
-		if (isbnVar2 != 0) //only prints if there is actually a second isbn
+		if (isbnVar1 == 1)
 		{
-			cout << isbn2 << " occurs " << isbnVar2 << " times." << endl;
+			cout << isbn1 << " occurs " << isbnVar1 << " time." << endl;
 		}
-		if (isbnVar3 != 0) //only prints if there is actually a third isbn
+		else
 		{
-			cout << isbn3 << " occurs " << isbnVar3 << " times" << endl;
+			cout << isbn1 << " occurs " << isbnVar1 << " times." << endl;
+		}
+		if (isbnVar2 != 0)
+		{
+			if (isbnVar2 == 1)
+			{
+				cout << isbn2 << " occurs " << isbnVar2 << " time." << endl;
+			}
+			else
+			{
+				cout << isbn2 << " occurs " << isbnVar2 << " times." << endl;
+			}
+		}
+		if (isbnVar3 != 0)
+		{
+			if (isbnVar3 == 1)
+			{
+				cout << isbn3 << " occurs " << isbnVar3 << " time." << endl;
+			}
+			else
+			{
+				cout << isbn3 << " occurs " << isbnVar3 << " times." << endl;
+			}
 		}
 		if (isbnVar4 != 0)
 		{
-			cout << isbn4 << " occurs " << isbnVar4 << " times." << endl;
+			if (isbnVar4 == 1)
+			{
+				cout << isbn4 << " occurs " << isbnVar4 << " time." << endl;
+			}
+			else
+			{
+				cout << isbn4 << " occurs " << isbnVar4 << " times." << endl;
+			}
 		}
 		if (isbnVar5 != 0)
 		{
-			cout << isbn5 << " occurs " << isbnVar5 << " times." << endl;
+			if (isbnVar5 == 1)
+			{
+				cout << isbn5 << " occurs " << isbnVar5 << " time." << endl;
+			}
+			else
+			{
+				cout << isbn5 << " occurs " << isbnVar5 << " times." << endl;
+			}
 		}
 	}
 	return 0;
