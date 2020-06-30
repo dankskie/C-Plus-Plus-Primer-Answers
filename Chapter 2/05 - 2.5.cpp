@@ -1,20 +1,20 @@
-//Single character
-//Long single character (extended bit range or some shit)
+//Character literal
+//Wide character literal
 //String literal
-//Long string literal (same)
+//String wide character literal
 
-//Int
-//Unsigned int
-//Long
-//Unsigned long
+//Decimal
+//Unsigned decimal
+//Long decimal
+//Unsigned long decimal
 //Octal
 //Hexadecimal
 
 //Double
 //Float
-//Long
+//Long double
 
-//Int
-//Unsigned int
+//Decimal
+//Unsigned decimal
 //Double
 //Double
